@@ -1,0 +1,158 @@
+2017-06-21 15:56:55 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php, line 26]
+2017-06-21 15:56:55 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/u...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/u...', 26, Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/u...', 26, Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-06-21 16:13:01 Error: [Exception] File Already Exists
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 [internal function]: ExampleController->sendmail()
+#1 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-06-21 16:13:36 Error: [Exception] File Already Exists
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 [internal function]: ExampleController->sendmail()
+#1 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-06-21 16:17:31 Error: Fatal Error (1): Cannot use string offset as an array in [/var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php, line 34]
+2017-06-21 16:17:31 Error: [FatalErrorException] Cannot use string offset as an array
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Cannot use stri...', '/var/www/html/u...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use stri...', '/var/www/html/u...', 34, Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot use stri...', '/var/www/html/u...', 34, Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-06-21 16:20:32 Error: [SocketException] File not found: "http://172.20.2.37/userchetan/cakeppt/retailerdocument/c.jpg"
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php(42): CakeEmail->attachments('http://172.20.2...')
+#1 [internal function]: ExampleController->sendmail()
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#5 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-06-21 16:22:45 Error: [SocketException] File not found: "http://172.20.2.37/userchetan/cakeppt/retailerdocument/mozilla767.pdf"
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php(42): CakeEmail->attachments('http://172.20.2...')
+#1 [internal function]: ExampleController->sendmail()
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#5 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-06-21 16:25:15 Error: [SocketException] File not found: "http://172.20.2.37/userchetan/cakeppt/retailerdocument/mozilla767.pdf"
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php(42): CakeEmail->attachments(Array)
+#1 [internal function]: ExampleController->sendmail()
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#5 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-06-21 16:26:24 Error: [SocketException] File not found: "http://172.20.2.37/userchetan/cakeppt/retailerdocument/Example_0.78088600_1498039527.odp"
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php(42): CakeEmail->attachments(Array)
+#1 [internal function]: ExampleController->sendmail()
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#5 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-06-21 16:26:47 Error: [SocketException] File not found: "http://172.20.2.37/userchetan/cakeppt/retailerdocument/Example_0.78088600_1498039527.odp"
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php(42): CakeEmail->attachments(Array)
+#1 [internal function]: ExampleController->sendmail()
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#5 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-06-21 16:26:54 Error: [SocketException] File not found: "http://172.20.2.37/userchetan/cakeppt/retailerdocument/EAadhaar.pdf"
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php(42): CakeEmail->attachments(Array)
+#1 [internal function]: ExampleController->sendmail()
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#5 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-06-21 16:32:01 Error: [SocketException] File not found: "http://172.20.2.37/userchetan/cakeppt/retailerdocument/Example_0.78088600_1498039527.odp"
+Request URL: /userchetan/cakeppt/example/sendmail
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php(42): CakeEmail->attachments(Array)
+#1 [internal function]: ExampleController->sendmail()
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ExampleController), Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/userchetan/cakeppt/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest))
+#5 /var/www/html/userchetan/cakeppt/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2017-06-21 18:26:48 Error: Fatal Error (1): Class 'PwExcel' not found in [/var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php, line 56]
+2017-06-21 18:26:48 Error: [FatalErrorException] Class 'PwExcel' not found
+Request URL: /userchetan/cakeppt/example/genrateExcel
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-06-21 18:27:06 Error: Fatal Error (1): Class 'PwExcel' not found in [/var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php, line 56]
+2017-06-21 18:27:06 Error: [FatalErrorException] Class 'PwExcel' not found
+Request URL: /userchetan/cakeppt/example/genrateExcel
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-06-21 18:27:08 Error: Fatal Error (1): Class 'PwExcel' not found in [/var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php, line 56]
+2017-06-21 18:27:08 Error: [FatalErrorException] Class 'PwExcel' not found
+Request URL: /userchetan/cakeppt/example/genrateExcel
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-06-21 18:29:37 Error: Fatal Error (1): Class 'PwExcel' not found in [/var/www/html/userchetan/cakeppt/app/Controller/ExampleController.php, line 56]
+2017-06-21 18:29:37 Error: [FatalErrorException] Class 'PwExcel' not found
+Request URL: /userchetan/cakeppt/example/genrateExcel
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'PwExcel'...', '/var/www/html/u...', 56, Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-06-21 18:30:02 Error: Fatal Error (1): Class 'PHPExcel' not found in [/var/www/html/userchetan/cakeppt/app/Vendor/PwExcel.php, line 17]
+2017-06-21 18:30:02 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /userchetan/cakeppt/example/genrateExcel
+Stack Trace:
+#0 /var/www/html/userchetan/cakeppt/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', '/var/www/html/u...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', '/var/www/html/u...', 17, Array)
+#2 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', '/var/www/html/u...', 17, Array)
+#3 /var/www/html/userchetan/cakeppt/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
